@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(224, 42, 224);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item {
+    color: #180101;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-item:hover {
+    background-color: #555;
+}
+
+.scrolled {
+    background-color: #cad317 !important;
+}
+
+.active {
+    color: #ff9900;
+}
